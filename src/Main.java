@@ -46,8 +46,10 @@ public class Main {
         int eggWeight = 70;
         int eggsTotalWeight = eggs*eggWeight;
 
-        float totalWeight = (bananaTotalWeight + milkTotalWeight + iceCreamTotalWeight + eggsTotalWeight)/1000f;
+        int totalWeight = (bananaTotalWeight + milkTotalWeight + iceCreamTotalWeight + eggsTotalWeight);
+        float totalWeightKg = (bananaTotalWeight + milkTotalWeight + iceCreamTotalWeight + eggsTotalWeight)/1000f;
 
-        System.out.println("Cмузи СуперПамп " + totalWeight + " кг");
+        System.out.println("Cмузи СуперПамп " + totalWeight + " граммы");
+        System.out.println("Cмузи СуперПамп " + totalWeightKg + " кг");
     }
 }
