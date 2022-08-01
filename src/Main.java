@@ -17,7 +17,7 @@ public class Main {
 
            //Логические
         int child = 1;
-        boolean schoolClass = child > 20;
+        boolean schoolClass = child > 19;
         System.out.println(schoolClass);
     }
 }
