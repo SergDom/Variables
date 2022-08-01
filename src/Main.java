@@ -27,5 +27,27 @@ public class Main {
         float boxer2 = 82.7f;
         System.out.println(boxer1 + boxer2 + " общий вес боксеров, кг");
         System.out.println(boxer2 - boxer1 + " разница в весе боксеров, кг");
+
+          //задание 3
+
+        int banana = 5;
+        int bananaWeight = 80;
+        int bananaTotalWeight = banana*bananaWeight;
+
+        int milk = 2;
+        int milkWeight = 105;
+        int milkTotalWeight = milk*milkWeight;
+
+        int iceCream = 2;
+        int iceCreamWeight = 100;
+        int iceCreamTotalWeight = iceCream*iceCreamWeight;
+
+        int eggs = 4;
+        int eggWeight = 70;
+        int eggsTotalWeight = eggs*eggWeight;
+
+        float totalWeight = (bananaTotalWeight + milkTotalWeight + iceCreamTotalWeight + eggsTotalWeight)/1000f;
+
+        System.out.println("Cмузи СуперПамп " + totalWeight + " кг");
     }
 }
