@@ -19,5 +19,13 @@ public class Main {
         int child = 1;
         boolean schoolClass = child > 19;
         System.out.println(schoolClass);
+
+
+          //задание 2
+
+        float boxer1 = 78.2f;
+        float boxer2 = 82.7f;
+        System.out.println(boxer1 + boxer2 + " общий вес боксеров, кг");
+        System.out.println(boxer2 - boxer1 + " разница в весе боксеров, кг");
     }
 }
