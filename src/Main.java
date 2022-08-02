@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         // Задание 1
+        System.out.println("Задание 1");
+
            //Цельночисленные
         byte apple = 5;
         short pearl = 11;
@@ -22,6 +24,7 @@ public class Main {
 
 
           //задание 2
+        System.out.println("Задание 2");
 
         float boxer1 = 78.2f;
         float boxer2 = 82.7f;
@@ -29,6 +32,7 @@ public class Main {
         System.out.println(boxer2 - boxer1 + " Разница в весе боксеров, кг");
 
           //задание 3
+        System.out.println("Задание 3");
 
         int banana = 5;
         int bananaWeight = 80;
@@ -53,6 +57,7 @@ public class Main {
         System.out.println("Cмузи СуперПамп " + totalWeightKg + " кг");
 
         //задание 4
+        System.out.println("Задание 4");
 
         int kgToGram = 7*1000;
         int loosingWeightPer250 = 250;
