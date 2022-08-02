@@ -25,8 +25,8 @@ public class Main {
 
         float boxer1 = 78.2f;
         float boxer2 = 82.7f;
-        System.out.println(boxer1 + boxer2 + " общий вес боксеров, кг");
-        System.out.println(boxer2 - boxer1 + " разница в весе боксеров, кг");
+        System.out.println(boxer1 + boxer2 + " Общий вес боксеров, кг");
+        System.out.println(boxer2 - boxer1 + " Разница в весе боксеров, кг");
 
           //задание 3
 
@@ -49,7 +49,7 @@ public class Main {
         int totalWeight = (bananaTotalWeight + milkTotalWeight + iceCreamTotalWeight + eggsTotalWeight);
         float totalWeightKg = (bananaTotalWeight + milkTotalWeight + iceCreamTotalWeight + eggsTotalWeight)/1000f;
 
-        System.out.println("Cмузи СуперПамп " + totalWeight + " граммы");
+        System.out.println("Cмузи СуперПамп " + totalWeight + " грамм");
         System.out.println("Cмузи СуперПамп " + totalWeightKg + " кг");
 
         //задание 4
@@ -66,6 +66,25 @@ public class Main {
         float averageDays = (weightLossPlan1 + weightLossPlan2)/2;
 
         System.out.println("Среднее количество дней на диете " + averageDays + " дней/день");
+
+        //задание 5
+        System.out.println("Задание 5");
+        int mashaSalary = 67760;
+        int denisSalary = 83690;
+        int kristinaSalary = 76230;
+
+        float salaryRise = 0.1f;
+
+        float mashaRise = (mashaSalary + mashaSalary*salaryRise);
+        float denisRise = (denisSalary + denisSalary*salaryRise);
+        float kristinaRise = (kristinaSalary + kristinaSalary*salaryRise);
+
+        System.out.println("Зарплата Маши после повышения " + mashaRise + " рублей");
+        System.out.println("Годовой доход Маши вырос на " + (mashaRise - mashaSalary)*12 + " рублей");
+        System.out.println("Зарплата Дениса после повышения " + denisRise + " рублей");
+        System.out.println("Годовой доход Дениса вырос на " + (denisRise - denisSalary)*12 + " рублей");
+        System.out.println("Зарплата Кристины после повышения " + kristinaRise + " рублей");
+        System.out.println("Годовой доход Кристины вырос на " + (kristinaRise - kristinaSalary)*12 + " рублей");
 
 
     }
