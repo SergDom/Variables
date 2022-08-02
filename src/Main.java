@@ -51,5 +51,22 @@ public class Main {
 
         System.out.println("Cмузи СуперПамп " + totalWeight + " граммы");
         System.out.println("Cмузи СуперПамп " + totalWeightKg + " кг");
+
+        //задание 4
+
+        int kgToGram = 7*1000;
+        int loosingWeightPer250 = 250;
+        int loosingWeightPer500 = 500;
+
+        float weightLossPlan1 = (kgToGram/loosingWeightPer250);
+        float weightLossPlan2 = (kgToGram/loosingWeightPer500);
+        System.out.println("Количество дней " + weightLossPlan1 + " при потере 250 грамм в день");
+        System.out.println("Количество дней " + weightLossPlan2 + " при потере 250 грамм в день");
+
+        float averageDays = (weightLossPlan1 + weightLossPlan2)/2;
+
+        System.out.println("Среднее количество дней на диете " + averageDays + " дней/день");
+
+
     }
 }
